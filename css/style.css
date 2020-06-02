@@ -19,11 +19,11 @@ body::before
   z-index: -1;
   background-image: linear-gradient(
     135deg,
-    rgba(0,115,203,0.9),
-    rgba(50,161,255,0.6),
-    rgba(0,115,203,0.9)
+    rgba(15, 15, 15, 0.9),
+    rgba(27, 42, 54, 0.7),
+    rgba(14, 20, 26, 0.9)
   ),
-  url(a.jpg);
+  url(c.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -39,7 +39,7 @@ body::before
 }
 .landing
 {
-  height:50vh;
+  height:90vh;
   width:100%;
 }
 .landing-p
@@ -55,17 +55,32 @@ body::before
 }
 .follow-on
 {
-  height:70vh;
+  padding:20px 10px 20px 10px;
+  height:90vh;
   background-color:#32a1ff;
+}
+.p-head
+{
+  font-size:5vw;
+  font-weight: 500;
+}
+.abtme
+{
+  margin:auto;
 }
 @media(max-width:700px)
 {
+  .landing
+  {
+  height:50vh;
+  width:100%;
+  }
   .subnav
   {
     position: relative;
-    width:90vw;
+    width:100vw;
     text-align:right;
-    padding-right:5vw;
+    padding-right:13vw;
   }
   .social-icon
   {
@@ -79,5 +94,16 @@ body::before
   {
     margin-left:30px;
     font-size:10vw;
+  }
+  .follow-on
+  {
+  padding:20px 10px 20px 10px;
+  height:40vh;
+  background-color:#32a1ff;
+  }
+  .footer-card
+  {
+    border-bottom:1px ridge white ;
+    margin:20px 0px 20px 0px;
   }
 }
