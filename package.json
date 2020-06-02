@@ -1,0 +1,26 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "This Project is for making my personal portfolio webpage using bootstrap elements",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "lite-server": "^2.5.4",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADRE9/MAK-portfolio.git"
+  },
+  "author": "Md Arshad Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ADRE9/MAK-portfolio/issues"
+  },
+  "homepage": "https://github.com/ADRE9/MAK-portfolio#readme"
+}
